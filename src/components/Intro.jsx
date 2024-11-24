@@ -30,11 +30,11 @@ const Intro = () => {
                         value="newUser"
 
                     />
-                </Form>
                 <button type="submit" className="btn btn--dark">
                     <span>Create Account</span>
                     <UserPlusIcon width={20} />
                 </button>
+                </Form>
             </div>
             <img src={illustration} alt="Stonks" width={600} />
         </div>
